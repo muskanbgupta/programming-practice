@@ -1,5 +1,9 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+st.set_page_config(
+    page_title="Product Launch Predictor",
+    layout="wide"
+)
 st.title("PRODUCT LAUNCH POPULARITY MODEL")
 st.info("**created by MUSKAN BANSRAJ GUPTA**",width=300)
 Intro,Config,Analysis=st.tabs(["**Introduction**","**Configure**","**Analysis**"])
